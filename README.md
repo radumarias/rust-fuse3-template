@@ -3,7 +3,7 @@ A template for a Rust project using [fuse3](https://github.com/Sherlock-Holo/fus
 
 It has a basic implementation of a filesystem with a single file with basic methods for a fs and the wrapper FUSE implementation.
 
-Implement `fuse3_template::fs::Filesystem` for your fs and change in `fuse3_template::fuse3:Fuse3::new` (`src/mount/fuse3.rs:134`) to use your implementation.
+Implement `fuse3_template::fs::Filesystem` for your fs and change in `fuse3_template::mount::fuse3:Fuse3::new` (`src/mount/fuse3.rs:134`) to use your implementation.
 
 # Run
 
