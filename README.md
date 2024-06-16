@@ -3,6 +3,8 @@ A template for a Rust project using [fuse3](https://github.com/Sherlock-Holo/fus
 
 It has a basic implementation of a filesystem with a single file with basic methods for a fs and the wrapper FUSE implementation.
 
+Implement `fs::Filesystem` for your fs.
+
 # Run
 
 ```bash
