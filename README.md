@@ -1,7 +1,7 @@
 # rust-fuse3-template
-A template for a Rust project using fuse3
+A template for a Rust project using [fuse3](https://github.com/Sherlock-Holo/fuse3).
 
-It uses [fuse3](https://github.com/Sherlock-Holo/fuse3) and it has a very basic implementation of a filesystem for a single file with basic methods for a fs and the wrapper FUSE implementation.
+It has a basic implementation of a filesystem with a single file with basic methods for a fs and the wrapper FUSE implementation.
 
 # Run
 
