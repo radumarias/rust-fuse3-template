@@ -302,7 +302,29 @@ dependencies = [
 ]
 
 [[package]]
-name = "fuse-template"
+name = "fuse3"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "02ca1b211677ee014a10b94ab6aea31e622ad1ea35f48b1670ac492a4f88b1af"
+dependencies = [
+ "async-notify",
+ "bincode",
+ "bytes",
+ "cstr",
+ "futures-channel",
+ "futures-util",
+ "libc",
+ "nix",
+ "serde",
+ "slab",
+ "tokio",
+ "tracing",
+ "trait-make",
+ "which",
+]
+
+[[package]]
+name = "fuse3-template"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -328,28 +350,6 @@ dependencies = [
  "tracing-appender",
  "tracing-subscriber",
  "tracing-test",
-]
-
-[[package]]
-name = "fuse3"
-version = "0.7.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02ca1b211677ee014a10b94ab6aea31e622ad1ea35f48b1670ac492a4f88b1af"
-dependencies = [
- "async-notify",
- "bincode",
- "bytes",
- "cstr",
- "futures-channel",
- "futures-util",
- "libc",
- "nix",
- "serde",
- "slab",
- "tokio",
- "tracing",
- "trait-make",
- "which",
 ]
 
 [[package]]
