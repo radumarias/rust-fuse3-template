@@ -1,9 +1,9 @@
 [package]
-name = "fuse-template"
+name = "fuse3-template"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-authors = ["Radu Marias <radumarias@gmail.com>"]
+authors = ["John Doe <johndoe@gmail.com>"]
 homepage = "https://radumarias.github.io/XXX"
 repository = "https://github.com/radumarias/XXX"
 readme = "README.md"
