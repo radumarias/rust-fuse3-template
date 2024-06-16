@@ -42,7 +42,7 @@ depends = ["fuse3"]
 
 [package.metadata.generate-rpm]
 assets = [
-    { source = "target/release/fuse3-template", dest = "/usr/bin/fuse3-template", mode = "755" }
+    { source = "target/release/fuse3-template", dest = "/usr/bin/fuse3-template", mode = "644" }
 ]
 [package.metadata.generate-rpm.requires]
 fuse3 = "*"
