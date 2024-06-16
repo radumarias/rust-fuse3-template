@@ -5,6 +5,8 @@ It has a basic implementation of a filesystem with a single file with basic meth
 
 Implement `crate::fs::Filesystem` for your fs and change in `crate::mount::fuse3:Fuse3::new` (`src/mount/fuse3.rs:134`) to use your implementation.
 
+Change `fuse3-template` with your app name everywhere.
+
 # Run
 
 ```bash
