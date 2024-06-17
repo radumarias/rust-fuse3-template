@@ -154,7 +154,7 @@ fn get_cli_args() -> ArgMatches {
 
 #[allow(clippy::missing_panics_doc)]
 pub fn log_init(level: Level) -> WorkerGuard {
-    let directive = format!("rencfs={}", level.as_str())
+    let directive = format!("fuse3_template={}", level.as_str())
         .parse()
         .expect("cannot parse log directive");
     let filter = EnvFilter::builder()
