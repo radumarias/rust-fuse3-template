@@ -271,7 +271,7 @@ impl Filesystem for Fuse3 {
     #[instrument(
         skip(self, name),
         fields(name = name.to_str().unwrap()),
-        err(level = Level::ERROR),
+        err(level = Level::INFO),
         ret(level = Level::DEBUG)
     )]
     async fn lookup(&self, req: Request, parent: u64, name: &OsStr) -> Result<ReplyEntry> {
