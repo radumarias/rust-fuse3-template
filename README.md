@@ -9,8 +9,7 @@ implementation.
 
 1. Implement `crate::fs::Filesystem` for your fs and change in `crate::mount::fuse3:Fuse3::new` (`src/mount/fuse3.rs:134`)
 to use your implementation.
-2. Replace `fuse3-template` and `fuse3_template` with your app name and package everywhere.
-  **Safer is to do a text search in the whole project.**
+2. Replace `fuse3-template` and `fuse3_template` with your app name and package everywhere. **Safer is to do a text search in the whole project.**
 
 # Run
 
