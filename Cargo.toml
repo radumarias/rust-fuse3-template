@@ -22,7 +22,7 @@ thiserror = "1.0.58"
 rand = "0.8.5"
 rand_core = "0.6.4"
 base64 = "0.22.1"
-tokio = { version = "1.36", features = ["full"] }
+tokio = { version = "1.38", features = ["full"] }
 tokio-stream = { version = "0.1.15", features = ["fs"] }
 futures-util = "0.3.30"
 tracing = { version = "0.1.40", features = ["max_level_trace", "release_max_level_info"] }
